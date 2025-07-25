@@ -26,7 +26,7 @@
         <div>
         <h1 class="text-3xl font-black">ALWAYS <span style="color: oklch(75% 0.183 55.934);">FRESH </span></h1>
         <h1 style="color: oklch(75% 0.183 55.934);"class="font-black text-3xl">FLOWERS</h1>
-        <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses
+        <p class="opacity-75">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses
              to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
         </div>
         <img src="./assets/hero-flower.png" alt="">
@@ -36,8 +36,8 @@
      <main>
         <div class="text-center gap-2">
             <h1 class="text-3xl font-black"><span style="color: oklch(75% 0.183 55.934);">Our</span>  Plants</h1>
-            <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
-               <p> From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <p class="opacity-75">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+               <p class="mb-2 opacity-75"> From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div>
         <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4 p-4">
   
@@ -95,8 +95,8 @@
     <div class="relative w-[540px] h-[597px] shrink-0">
       <img src="./assets/flower-store.png" alt="Flower Store"
            class="w-full h-full object-cover shadow-md rounded-md" />
-      <img src="./assets/trusted-badge.png" alt="Trusted Seller Badge"
-           class="absolute -top-6 -right-6 w-20 h-20 drop-shadow-xl" />
+      <img  src="./assets/trusted-badge.png" alt="Trusted Seller Badge"
+           class="absolute -top-6 -right-6 w-20 h-20 drop-shadow-xl hidden md:block" />
     </div>
 
     <!-- Right Side: Text Block -->
@@ -104,7 +104,7 @@
       <h1 class="text-3xl font-bold mb-1">Flower & Plants</h1>
       <h2 class="text-3xl font-bold mb-4">Lover</h2>
 
-      <ul class="list-disc list-inside space-y-4 leading-relaxed">
+      <ul class="list-disc list-inside space-y-4 leading-relaxed opacity-75">
         <li>
           A flower and plants lover finds joy in the vibrant colors, delicate textures, and soothing scents of nature.
           From the tiniest daisy to the boldest sunflower, each bloom tells a unique story of beauty and growth.
@@ -128,58 +128,57 @@
 
   <div class="text-center">
     <h1 class="text-3xl font-black"> <span style="color: oklch(75% 0.183 55.934);">Latest</span> Deals</h1>
-    <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
-        <p> From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+    <p class="opacity-75">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+        <p class="opacity-75"> From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
   </div>
- <div class="grid md:grid-cols-2 grid-cols-1 gap-4 rounded-lg m-15">
+<div class="grid md:grid-cols-2 grid-cols-1 gap-4 rounded-lg m-15">
   <!-- Image 1 -->
   <div class="relative h-[200px]">
-    <img src="./assets/deal-ana.png" alt="" class="w-full h-full object-cover rounded-lg ">
+    <img src="./assets/deal-ana.png" alt="" class="w-full h-full object-cover rounded-lg">
     <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
-   <div class="absolute inset-0 justify-center p-4 flex flex-col items-start ml-50 text-white text-2xl font-bold">
-     <h1>60% off | Bloom plant</h1>
-    <a class="underline ml-10" href="">Shop Now</a>
-   </div>
+    <div class="absolute inset-0 flex flex-col justify-center items-center text-center   p-4 text-white text-2xl font-bold">
+      <h1>60% off | Bloom plant</h1>
+      <a class="underline mt-2" href="">Shop Now</a>
+    </div>
   </div>
 
   <!-- Image 2 -->
-  <div class=" relative row-span-2 h-full">
+  <div class="relative row-span-2 h-full">
     <img src="./assets/deal-zabo.png" alt="" class="w-full h-full object-cover rounded-lg">
     <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
-    <div class="absolute inset-0 justify-center p-4 flex flex-col items-start ml-50 text-white text-2xl font-bold">
-     <h1>60% off | Bloom plant</h1>
-    <a class="underline ml-10" href="">Shop Now</a>
-   </div>
+    <div class="absolute inset-0 flex flex-col justify-center items-center text-center   p-4 text-white text-2xl font-bold">
+      <h1>25% off | Zabo plant</h1>
+      <a class="underline mt-2" href="">Shop Now</a>
+    </div>
   </div>
 
-  <!-- Image 3: spans both columns -->
+  <!-- Image 3 -->
   <div class="relative h-[200px]">
     <img src="./assets/deal-bloom.png" alt="" class="w-full h-full object-cover rounded-lg">
     <div class="absolute inset-0 bg-black/40 rounded-lg"></div>
-    <div class="absolute inset-0 justify-center p-4 flex flex-col items-start ml-50 text-white text-2xl font-bold">
-     <h1>60% off | Bloom plant</h1>
-    <a class="underline ml-10" href="">Shop Now</a>
-   </div>
+    <div class="absolute inset-0 flex flex-col justify-center items-center text-center   p-4 text-white text-2xl font-bold">
+      <h1>30% off | Ana plant</h1>
+      <a class="underline mt-2" href="">Shop Now</a>
+    </div>
   </div>
 </div>
+
 <div class="relative w-full">
   <!-- Background Image -->
   <img src="./assets/news-letter-bg.png" alt="" class="w-full h-auto object-cover">
 
   <!-- Overlay Content -->
   <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
-    <h1 class="text-3xl font-bold mb-4">join the colourful bunch</h1>
+    <h1 class="text-3xl font-bold mb-4">Join the colorful Bunch</h1>
     <div class="flex ">
-      <input type="text" placeholder="write your email"
-             class="px-4 py-2 rounded text-black bg-white" />
-      <button class="bg-orange-500 text-white px-4 py-2 rounded">
+      <input type="text" placeholder="Enter email"
+             class="px-4 py-2 rounded text-black  bg-white w-100" />
+      <button class="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600">
         Subscribe
       </button>
     </div>
   </div>
 </div>
-
-
 
 
      
