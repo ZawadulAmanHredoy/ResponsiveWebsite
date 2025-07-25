@@ -162,16 +162,62 @@
    </div>
   </div>
 </div>
-<div>
-    <img src="./assets/news-letter-bg.png" alt="">
+<div class="relative w-full">
+  <!-- Background Image -->
+  <img src="./assets/news-letter-bg.png" alt="" class="w-full h-auto object-cover">
+
+  <!-- Overlay Content -->
+  <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+    <h1 class="text-3xl font-bold mb-4">join the colourful bunch</h1>
+    <div class="flex ">
+      <input type="text" placeholder="write your email"
+             class="px-4 py-2 rounded text-black bg-white" />
+      <button class="bg-orange-500 text-white px-4 py-2 rounded">
+        Subscribe
+      </button>
+    </div>
+  </div>
 </div>
 
 
 
 
      
-     <footer>
+     <footer class="m-15 md:flex  flex-wrap justify-between gap-8  p-6 text-sm text-gray-700">
+  <div class="flex-1 min-w-[200px]">
+    <img src="./assets/logo.png" alt="Logo" class="mb-2">
+    <p class="sm:mb-6">Grow with love. Bloom with purpose</p>
+    
+  </div>
 
-     </footer>
+  <div class="flex-1 min-w-[150px] sm:mb-6">
+    <ul class="space-y-2">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+  </div>
+
+  <div class="flex-1 min-w-[150px] sm:mb-6">
+    <ul class="space-y-2">
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Prices</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms and Condition</a></li>
+      <li><a href="#">Help Center</a></li>
+    </ul>
+  </div>
+
+  <div class="flex  gap-4 flex-wrap sm:mb-6">
+    <img src="./assets/icon-facebook.png" alt="Facebook" class="w-6 h-6">
+    <img src="./assets/icon-linkedin.png" alt="LinkedIn" class="w-6 h-6">
+    <img src="./assets/icon-twitter.png" alt="Twitter" class="w-6 h-6">
+    <img src="./assets/icon-youtube.png" alt="YouTube" class="w-6 h-6">
+  </div>
+</footer>
+
+
 </body>
 </html>
